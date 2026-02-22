@@ -31,11 +31,11 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp ESC         &kp N1        &kp N2    &kp N3    &kp N4    &kp N5                                &kp N6       &kp N7  &kp N8     &kp N9   &kp N0       &kp MINUS
-&kp TAB         &kp Q         &kp W     &kp E     &kp R     &kp T                                 &kp Y        &kp U   &kp I      &kp O    &kp P        &kp EQUAL
-&kp CAPS        &kp A         &kp S     &kp D     &kp F     &kp G                                 &kp H        &kp J   &kp K      &kp L    &kp SEMI     &kp SQT
-&kp LEFT_SHIFT  &kp Z         &kp X     &kp C     &kp V     &kp B     &kp LGUI     &kp RGUI       &kp N        &kp M   &kp COMMA  &kp DOT  &kp FSLH     &kp BACKSLASH
-&kp LCTRL       &kp UP_ARROW  &kp DOWN  &kp LALT  &mkp MB2  &mkp MB1  &lt 5 SPACE  &kp BACKSPACE  &lt 5 ENTER                              &kp PAGE_UP  &kp PAGE_DOWN
+&kp ESC         &kp N1        &kp N2    &kp N3        &kp N4    &kp N5                                &kp N6       &kp N7  &kp N8     &kp N9   &kp N0       &kp MINUS
+&kp TAB         &kp Q         &kp W     &kp E         &kp R     &kp T                                 &kp Y        &kp U   &kp I      &kp O    &kp P        &kp EQUAL
+&kp CAPS        &kp A         &kp S     &kp D         &kp F     &kp G                                 &kp H        &kp J   &kp K      &kp L    &kp SEMI     &kp SQT
+&kp LEFT_SHIFT  &kp Z         &kp X     &kp C         &kp V     &kp B     &lt 6 LGUI   &kp RGUI       &kp N        &kp M   &kp COMMA  &kp DOT  &kp FSLH     &kp BACKSLASH
+&kp LCTRL       &kp UP_ARROW  &kp DOWN  &mt LALT DEL  &mkp MB2  &mkp MB1  &lt 5 SPACE  &kp BACKSPACE  &lt 5 ENTER                              &kp PAGE_UP  &kp PAGE_DOWN
             >;
         };
 
@@ -87,11 +87,11 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5            &kp F6  &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
-&kp  &kp     &kp     &kp     &kp     &kp               &kp     &kp       &kp UP    &kp        &kp      &kp F12
-&kp  &kp     &kp     &kp     &kp     &kp               &kp     &kp LEFT  &kp DOWN  &kp RIGHT  &kp      &kp
-&kp  &kp     &kp     &kp     &kp     &kp     &kp  &kp  &kp     &kp       &kp       &kp        &kp      &kp
-&kp  &kp     &kp     &kp     &kp     &kp     &kp  &kp  &kp                                    &kp      &kp
+&none  &kp F1  &kp F2      &kp F3        &kp F4        &kp F5                      &kp F6  &kp F7    &kp F8    &kp F9            &kp F10            &kp F11
+&none  &none   &none       &none         &none         &none                       &none   &none     &kp UP    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F12
+&none  &none   &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2                &none   &kp LEFT  &kp DOWN  &kp RIGHT         &none              &none
+&none  &none   &none       &none         &none         &none         &none  &none  &none   &none     &none     &none             &none              &none
+&none  &none   &none       &none         &none         &none         &none  &none  &none                                         &none              &none
             >;
         };
 
