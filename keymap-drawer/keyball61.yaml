@@ -44,7 +44,7 @@ layers:
   - V
   - B
   - {t: LGUI, h: SNIPE}
-  - RGUI
+  - $$mdi:apple-keyboard-option$$
   - N
   - M
   - {t: ',', s: <}
@@ -55,8 +55,8 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
-  - '&mkp MB2'
   - '&mkp MB1'
+  - '&mkp MB2'
   - {t: '$$mdi:keyboard-space$$', h: SCROLL}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: SCROLL}
