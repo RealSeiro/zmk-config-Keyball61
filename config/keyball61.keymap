@@ -51,7 +51,7 @@
             label = "NUM";
         };
 
-        x_scroll_layer {
+        bt {
             label = "SYM";
             bindings = <
 &trans  &none   &none   &none           &none         &none                         &none   &none   &none   &none   &none   &trans
@@ -62,7 +62,7 @@
             >;
         };
 
-        function_layer {
+        x_scroll_layer {
             label = "FUN";
             bindings = <
 &none  &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
@@ -89,7 +89,7 @@
             bindings = <
 &none   &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
 &none   &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
-&tog 2  &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
+&tog 3  &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
 &none   &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 &none   &none  &none  &none  &none  &none  &none  &none  &none                       &none  &none
             >;
