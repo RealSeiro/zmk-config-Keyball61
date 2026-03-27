@@ -5,6 +5,8 @@
  */
  
 #include "keyball61.dtsi"
+#include <input/processors.dtsi>
+#include <dt-bindings/zmk/input_transform.h>
 
 &default_transform {
     col-offset = <7>;
@@ -113,6 +115,9 @@
   trackball_listener {
     compatible = "zmk,input-listener";
     device = <&trackball>;
-
+	x_scroll_when_layer3 {
+    	layers = <3>;
+    	input-processors = <&zip_scroll_transform INPUT_TRANSFORM_XY_SWAP>;
+    };
   };
 };
