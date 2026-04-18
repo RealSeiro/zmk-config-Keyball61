@@ -31,21 +31,21 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&lt 2 GRAVE     &kp N1           &kp N2   &kp N3    &kp N4    &kp N5                                &kp N6       &kp N7  &kp N8     &kp N9   &kp N0       &kp EQUAL
-&kp TAB         &kp Q            &kp W    &kp E     &kp R     &kp T                                 &kp Y        &kp U   &kp I      &kp O    &kp P        &kp MINUS
-&kp LEFT_SHIFT  &kp A            &kp S    &kp D     &kp F     &kp G                                 &kp H        &kp J   &kp K      &kp L    &kp SEMI     &kp SQT
-&kp LCTRL       &kp Z            &kp X    &kp C     &kp V     &kp B     &lt 1 LGUI   &kp RALT       &kp N        &kp M   &kp COMMA  &kp DOT  &kp FSLH     &kp BACKSLASH
-&kp DEL         &kp PRINTSCREEN  &kp ESC  &kp LALT  &mkp MB2  &mkp MB1  &lt 5 SPACE  &kp BACKSPACE  &lt 1 ENTER                              &kp PAGE_UP  &kp PAGE_DOWN
+&lt 2 GRAVE     &kp N1           &kp N2   &kp N3    &kp N4    &kp N5                                &kp N6     &kp N7  &kp N8     &kp N9   &kp N0       &kp EQUAL
+&kp TAB         &kp Q            &kp W    &kp E     &kp R     &kp T                                 &kp Y      &kp U   &kp I      &kp O    &kp P        &kp MINUS
+&kp LEFT_SHIFT  &kp A            &kp S    &kp D     &kp F     &kp G                                 &kp H      &kp J   &kp K      &kp L    &kp SEMI     &kp SQT
+&kp LCTRL       &kp Z            &kp X    &kp C     &kp V     &kp B     &lt 1 LGUI   &kp RALT       &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH     &kp BACKSLASH
+&kp DEL         &kp PRINTSCREEN  &kp ESC  &kp LALT  &mkp MB2  &mkp MB1  &lt 4 SPACE  &kp BACKSPACE  &kp ENTER                              &kp PAGE_UP  &kp PAGE_DOWN
             >;
         };
 
         number_layer {
             bindings = <
 &kp TILDE   &kp F1  &kp F2  &kp F3        &kp F4    &kp F5                                &kp F6            &kp F7             &kp F8          &kp F9           &kp F10               &kp F11
-&kp TAB     &none   &none   &none         &none     &none                                 &kp PAGE_UP       &kp HOME           &kp UP          &kp END          &mo 5                 &kp F12
+&kp TAB     &none   &none   &none         &none     &none                                 &kp PAGE_UP       &kp HOME           &kp UP          &kp END          &mo 4                 &kp F12
 &kp LSHIFT  &none   &none   &none         &none     &none                                 &kp PAGE_DOWN     &kp LEFT           &kp DOWN        &kp RIGHT        &none                 &none
 &kp LCTRL   &none   &none   &none         &none     &kp F13   &none        &kp RIGHT_ALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&none       &none   &none   &kp LEFT_ALT  &mkp MB2  &mkp MB1  &lt 5 SPACE  &kp BACKSPACE  &kp ENTER                                                             &kp C_VOLUME_UP       &kp C_VOLUME_DOWN
+&none       &none   &none   &kp LEFT_ALT  &mkp MB2  &mkp MB1  &lt 4 SPACE  &kp BACKSPACE  &kp ENTER                                                             &kp C_VOLUME_UP       &kp C_VOLUME_DOWN
             >;
 
             label = "NUM";
@@ -73,34 +73,12 @@
             >;
         };
 
-        mouse_layer {
-            label = "MOUSE";
-            bindings = <
-&trans  &trans    &trans    &trans  &trans     &trans                  &trans         &trans     &trans  &trans     &trans     &trans
-&trans  &trans    &trans    &trans  &trans     &trans                  &trans         &trans     &trans  &trans     &trans     &trans
-&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans                  &kp PAGE_UP    &mkp LCLK  &trans  &mkp RCLK  &mkp MCLK  &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans     &trans  &trans     &trans     &trans
-&trans  &trans    &trans    &trans  &trans     &trans  &trans  &trans  &mo 3                                        &trans     &trans
-            >;
-        };
-
         y_scroll_layer {
             label = "SCROLL";
             bindings = <
 &none  &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
 &mo 3  &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none                       &none  &none
-            >;
-        };
-
-        snipe_layer {
-            label = "SNIPE";
-            bindings = <
-&none  &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none                &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none  &none  &none  &none                       &none  &none
             >;
